@@ -1,0 +1,107 @@
+[gd_scene load_steps=4 format=3 uid="uid://l3ihfw4qk85"]
+
+[ext_resource type="Texture2D" uid="uid://i4cjdwy1kcoj" path="res://icon.png" id="1_4vreb"]
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_aexmd"]
+[ext_resource type="Texture2D" uid="uid://bwxel001nhqoq" path="res://addons/assets_banner.webp" id="2_ojg63"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_aexmd")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Background" type="ColorRect" parent="CanvasLayer"]
+offset_left = -66.0
+offset_top = -9.0
+offset_right = 1971.0
+offset_bottom = 1093.0
+
+[node name="HeadingText" type="Label" parent="CanvasLayer/Background"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -458.0
+offset_top = 216.0
+offset_right = 473.0
+offset_bottom = 429.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 156
+text = "Kill Them All"
+
+[node name="AssetsText" type="Label" parent="CanvasLayer/Background"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -740.5
+offset_top = 979.0
+offset_right = -383.5
+offset_bottom = 1072.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "Assets from \"Your First
+2D Game\" by GDQuest"
+
+[node name="HighestScoreText" type="Label" parent="CanvasLayer/Background"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -940.5
+offset_top = 17.0
+offset_right = -601.5
+offset_bottom = 62.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "Highest Score: 0"
+
+[node name="PlayButton" type="Button" parent="CanvasLayer/Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -306.5
+offset_top = -95.5
+offset_right = 321.5
+offset_bottom = 91.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 96
+text = "Play
+"
+
+[node name="ExitButton" type="Button" parent="CanvasLayer/Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -306.5
+offset_top = 101.0
+offset_right = 321.5
+offset_bottom = 288.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 96
+text = "Exit
+"
+
+[node name="Icon" type="Sprite2D" parent="CanvasLayer/Background"]
+position = Vector2(1467, 541)
+scale = Vector2(2, 2)
+texture = ExtResource("1_4vreb")
+
+[node name="AssetsBanner" type="Sprite2D" parent="CanvasLayer/Background"]
+position = Vector2(172, 1024)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("2_ojg63")
+
+[connection signal="pressed" from="CanvasLayer/Background/PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Background/ExitButton" to="." method="_on_exit_button_pressed"]

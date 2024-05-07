@@ -1,0 +1,10 @@
+res://scenes/game.tscn
+res://scripts/game.gd
+res://scenes/slime.tscn
+res://scenes/main_menu.tscn
+res://scripts/main_menu.gd
+res://scripts/slime.gd
+res://scripts/gun.gd
+res://scripts/auto_script.gd
+res://data/savedata.gd
+res://scripts/global.gd
