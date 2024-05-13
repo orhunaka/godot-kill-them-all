@@ -1,0 +1,16 @@
+res://addons/virtual_joystick/test/test.tscn::60299157fb2f850aa88796735369d4c0::1709610958::res://.godot/exported/133200997/export-65fc1102b221e3c86f8828aab5faf636-test.scn
+res://addons/virtual_joystick/virtual_joystick_scene.tscn::c47f4bc864545c023e725d20482526d6::1709610958::res://.godot/exported/133200997/export-4fefb2d1c978e429fe9cfeba8aa59129-virtual_joystick_scene.scn
+res://characters/happy_boo/happy_boo.tscn::50f862bf4be202cd70b541ba027b9b43::1715097850::res://.godot/exported/133200997/export-d648d95b60292c6ab5a2df3cfa132f65-happy_boo.scn
+res://characters/happy_boo/square_modification_stack.tres::c50df0cb08042a928161eb2d35e7a5f9::1715096366::res://.godot/exported/133200997/export-f25555e8dbdc63b0046bd11dbf14cb6d-square_modification_stack.res
+res://characters/slime/slime.tscn::4109dfdd6b05c79de6f9acdffb60aab6::1715096366::res://.godot/exported/133200997/export-00cd1686d0dcba26ac4404616e000a71-slime.scn
+res://pistol/impact/impact.tscn::69097d817a9970689e0d7bb3c15d7006::1715096366::res://.godot/exported/133200997/export-23af5b5b4b536de664300f16912ab0a5-impact.scn
+res://pistol/muzzle_flash/muzzle_flash.tscn::cb1cee9861385d5ab2cf0b891d413f09::1715096366::res://.godot/exported/133200997/export-b157f8b9faf8fae6f6c4fc021b88b5f1-muzzle_flash.scn
+res://scenes/bullet.tscn::95fbcddb7e524b97e88845417103b4b9::1715097992::res://.godot/exported/133200997/export-6d8e6ff1e6f20a36e0402d27c623c86c-bullet.scn
+res://scenes/game.tscn::d687019fe596f2e9b0077a1a3b25f413::1715112766::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/gun.tscn::49f4c4b7e004eb9e502cd24c0397f833::1715097994::res://.godot/exported/133200997/export-e8b70ebe6a89c3504564097573c2ce26-gun.scn
+res://scenes/main_menu.tscn::5f443d85f58be4536f9ac483bb90b54a::1715112572::res://.godot/exported/133200997/export-ea5c6ad4629af728dc514cefde332394-main_menu.scn
+res://scenes/pine_tree.tscn::f604f08d3e370a5d87727709bafc5d0f::1715097998::res://.godot/exported/133200997/export-e0afc551313f7bfcbeae721a209906ee-pine_tree.scn
+res://scenes/player.tscn::12d98cd9c1f9f06cb7a62f16cbad4df1::1715102493::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/slime.tscn::a225a8c78012016758e349981d954a48::1715112572::res://.godot/exported/133200997/export-cfec31ac835903e5b6c8af87b017aecf-slime.scn
+res://smoke_explosion/smoke_explosion.tscn::0235eab75112ef52a3f22bf2fa910719::1715096366::res://.godot/exported/133200997/export-e72ef0eae21a758bfc24d9e4f444eb60-smoke_explosion.scn
+res://default_bus_layout.tres::f79fcacca07a2d471d5d1918fc173cbc::1715096366::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
